@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
       <p className="text-gray-700 leading-relaxed mb-4">
         If you have any questions about this Privacy Policy, You can contact us at:
       </p>
-      <p className="text-blue-600 font-medium">support@aecbyte.com</p>
+      <p className="text-blue-600 font-medium">mail@aecbyte.com</p>
     </div>
   );
 };

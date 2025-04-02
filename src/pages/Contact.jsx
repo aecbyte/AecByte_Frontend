@@ -56,11 +56,16 @@ const Contact = () => {
             <p className="flex items-start"><FaLocationPin className="mt-1 mr-2" size={16} /> D-9, Ground floor, Sector-3, Gautam Buddha Nagar, Noida, Uttar Pradesh, INDIA, 201301.</p>
           </div>
           <div className="flex space-x-4 mt-6">
-            <FaFacebookF className="text-white hover:text-[#1877f2] cursor-pointer" size={20} />
-            <FaYoutube className="text-white hover:text-[#FF0000] cursor-pointer" size={20} />
-            <FaXTwitter className="text-white hover:text-gray-400 cursor-pointer" size={20} />
-            <FaInstagram className="text-white hover:text-[#d62976] cursor-pointer" size={20} />
-            <FaLinkedin className="text-white hover:text-[#0a66c2] cursor-pointer" size={20} />
+          <a href="https://www.facebook.com/aecbyte">
+            <FaFacebookF className="text-white hover:text-[#1877f2] cursor-pointer" size={20} /></a>
+            <a href="https://www.youtube.com/@aecbyte">
+            <FaYoutube className="text-white hover:text-[#FF0000] cursor-pointer" size={20} /></a>
+            <a href="https://www.x.com/aecbyte">
+            <FaXTwitter className="text-white hover:text-gray-400 cursor-pointer" size={20} /></a>
+            <a href="https://www.instagram.com/aecbyte">
+            <FaInstagram className="text-white hover:text-[#d62976] cursor-pointer" size={20} /></a>
+            <a href="https://www.linkedin.com/company/aecbyte">
+            <FaLinkedin className="text-white hover:text-[#0a66c2] cursor-pointer" size={20} /> </a>
           </div>
         </div>
 
